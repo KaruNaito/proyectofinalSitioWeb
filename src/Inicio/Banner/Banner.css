@@ -1,0 +1,28 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: center;
+    @media (max-width: 2000px) {
+      height: 90vh;
+    }
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('./desktop-wallpaper-anime-aesthetic-anime-scenery-anime-background-anime-background-90s-anime.jpg');
+  }
+  
+  .banner-container {
+    text-align: center;
+    padding: 10% 0;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    color: #333;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    color: #302e2e;
+  }
+  
